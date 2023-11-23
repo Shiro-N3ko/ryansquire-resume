@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -26,6 +29,33 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* Custom styles for header */
+.header {
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Custom styles for navigation container */
+.navigation {
+  width: 100%;
+  background-color: #333; /* Choose a color that complements your design */
+  margin-top: 16px;
+}
+
+/* Custom styles for unordered list */
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Custom styles for list items */
+.nav-item {
+  padding: 8px 12px;
+  font-size: 16px;
 }
 
 @keyframes App-logo-spin {
